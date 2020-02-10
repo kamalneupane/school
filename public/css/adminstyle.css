@@ -1,0 +1,81 @@
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css");
+.bg-primary
+{
+    background-color: #1867c0 !important;
+}
+#app
+{
+    margin-top: 55px;
+}
+label
+{
+    font-weight: bold;
+}
+a
+{
+    cursor: pointer;
+}
+.navbar{
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.3);
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.3);
+}
+.main-sidebar
+{
+    background-color: #1867c0;
+    min-height: 100vh;
+    height: 100vh;
+    width: 100%;
+    padding: 10px;
+}
+.main-sidebar .title
+{
+    color: #fff;
+    text-align: center;
+}
+
+.main-sidebar ul{
+    list-style-type: none;
+}
+.main-sidebar ul li a{
+    color: #fff;
+}
+.panel-heading a
+{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/*Toast*/
+.toast
+{
+    position: absolute;
+    top: 10px;
+    right: 35px;
+    padding: 10px 25px;
+    max-width: 350px;
+    overflow: hidden;
+    font-size: .875rem;
+    background-color: rgba(255,255,255,.85);
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.1);
+    box-shadow: 0 0.25rem 0.75rem rgba(0,0,0,.1);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border-radius: .25rem;
+    z-index: 9999;
+    -webkit-animation: hideToast 4s forwards;
+    animation: hideToast 4s forwards;
+}
+@keyframes hideToast {
+    0%   {opacity: 1;}
+    100% {opacity: 0;}
+}
+@-webkit-keyframes hideToast {
+    0%   {opacity: 1;}
+    100% {opacity: 0;}
+}
+.card-header{
+    color: #fff;
+}
